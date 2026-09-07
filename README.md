@@ -106,9 +106,9 @@ The notebook first looks for `data/covid_india.csv`. If it is not present, it do
 
 ## 📁 Dataset
 
-The project uses a historical state-wise COVID-19 India time series. The public source describes data from **30 January 2020 onwards**, with cumulative confirmed, cured/discharged/migrated and death figures. citeturn0search2
+The project uses a historical state-wise COVID-19 India time series. The public source describes data from **30 January 2020 onwards**, with cumulative confirmed, cured/discharged/migrated and death figures.
 
-The repository keeps the large raw dataset out of Git history and documents the expected schema in [`data/README.md`](data/README.md).
+The repository keeps the large raw dataset out of Git history and documents the expected schema in `data/README.md`.
 
 ## 🔍 Example Questions
 
