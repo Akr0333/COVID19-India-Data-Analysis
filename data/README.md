@@ -1,7 +1,21 @@
 # Data
 
-This folder is reserved for local COVID-19 datasets.
+The notebook uses a historical state-wise India COVID-19 time-series dataset hosted publicly by `amitvsavant/covid19-india-state-timeseries`. The source describes the dataset as state-wise reported cases from 30 January 2020 onwards, with cumulative confirmed, cured/discharged/migrated and death figures.
 
-For reproducibility, large raw datasets are intentionally not committed by default. Place a CSV file here and update the notebook's `DATA_PATH` variable if an offline dataset is preferred.
+The project deliberately does not commit a large raw dataset. The notebook downloads the source CSV when a local copy is not present, making the repository smaller and easier to reproduce.
 
-Expected useful columns include a date field, state/region, and confirmed/recovered/deceased case counts. Column names can be adapted in the cleaning section of the notebook.
+For offline use, save a compatible CSV as:
+
+```text
+data/covid_india.csv
+```
+
+The expected fields are:
+
+- `Date`
+- `State`
+- `Total Confirmed Cases`
+- `Cured/Discharged/Migrated`
+- `Death`
+
+**Source:** Public COVID-19 India state-wise historical data. See the main README for project context and limitations.
