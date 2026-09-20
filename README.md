@@ -1,40 +1,31 @@
-# COVID-19 India Data Analysis 🇮🇳
+# 🇮🇳 COVID-19 India Data Analysis
+
+End-to-end exploratory analysis of reported COVID-19 trends across India using Python.
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualisation-orange)
-![Project](https://img.shields.io/badge/Type-Portfolio%20Project-lightgrey)
+![Status](https://img.shields.io/badge/Status-Portfolio%20Project-success)
 
-An end-to-end **Exploratory Data Analysis (EDA)** project exploring the reported spread of COVID-19 across India using Python, Pandas and Matplotlib.
+## 📌 Project Overview
 
-## 🎯 Objectives
+This project demonstrates a complete data-analysis workflow:
 
-- Analyse case trends over time
-- Compare states and regions
-- Examine confirmed, recovered and deceased cases
-- Calculate daily changes from cumulative data
-- Explore recovery and fatality rates
-- Communicate findings through visualisations
+**Raw Data → Cleaning → Exploration → Aggregation → Visualisation → Insights**
 
-## 📊 Analysis
+## 🔍 Questions Explored
 
-### India-wide
-- Cumulative case trends
-- Daily reported increases
-- Peak-growth identification
+- How did reported cases change over time?
+- Which states/regions recorded the highest reported burden?
+- How did confirmed, recovered and deceased counts compare?
+- What trends appear in daily reported changes?
+- How did recovery and fatality rates vary?
 
-### State-wise
-- Latest available totals
-- Top regions by confirmed cases
-- Recovery and fatality rates
+## 🛠️ Tech Stack
 
-### Data preparation
-- Date conversion
-- Numeric coercion
-- Missing-value handling
-- Sorting and aggregation
+**Python • Pandas • NumPy • Matplotlib • Jupyter Notebook**
 
-## 🗂️ Structure
+## 📁 Structure
 
 ```text
 COVID19-India-Data-Analysis/
@@ -47,10 +38,6 @@ COVID19-India-Data-Analysis/
 └── README.md
 ```
 
-## 🛠️ Stack
-
-**Python • Pandas • NumPy • Matplotlib • Requests • Jupyter Notebook • Git/GitHub**
-
 ## 🚀 Run Locally
 
 ```bash
@@ -62,27 +49,25 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-Then open `notebooks/COVID19_India_Analysis.ipynb`.
+Open the analysis notebook in `notebooks/`.
 
-## 🔎 Questions Explored
+## 💡 Skills Demonstrated
 
-- Which regions had the highest reported case burden?
-- When were the strongest periods of reported growth?
-- How did recovery and fatality rates vary?
-- What patterns can be identified from the time series?
+- Data cleaning and preparation
+- Exploratory data analysis
+- Time-series analysis
+- Grouping and aggregation
+- Rate calculations
+- Data visualisation
+- Communicating analytical findings
 
-## 🔮 Future Improvements
+## 🔮 Next Steps
 
-- Interactive Plotly dashboard
-- Automated data-validation tests
-- Wave/period comparison
-- Testing and positivity-rate analysis
-- GitHub Actions for code checks
+- Add an interactive Plotly dashboard
+- Add automated data-quality checks
+- Add a reproducible analysis pipeline
+- Add GitHub Actions for validation
 
-## ⚠️ Disclaimer
-
-This is an **educational data-analysis project**. Historical COVID-19 figures may contain revisions, reporting delays, missing values and changes in definitions. Results should not be used for medical, epidemiological or policy decisions.
-
----
+> Educational project using historical reported data. Figures can contain revisions, reporting delays and definition changes.
 
 ⭐ **Data → Analysis → Visualisation → Insight**
