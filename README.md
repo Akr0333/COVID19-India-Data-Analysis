@@ -68,3 +68,15 @@ This project demonstrates the complete analyst workflow from raw data through cl
 - GitHub Actions validation
 
 ⭐ **Data → Analysis → Visualisation → Insight**
+
+
+## 📸 Project Demo
+
+> Add dashboard screenshots, model evaluation charts and a short demo GIF here so recruiters can understand the result before reading the code.
+
+### Suggested visuals
+- Problem / dataset overview
+- KPI or EDA chart
+- Model evaluation (confusion matrix / ROC-AUC where applicable)
+- Final dashboard or application
+
